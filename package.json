@@ -1,0 +1,91 @@
+{
+  "name": "myworld-node-react-mobx-minimal-boilerplate",
+  "version": "0.0.1",
+  "description": "nodejs restful api single server with reactjs and mobx state management system minimal boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "babel-version": "babel --version",
+    "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "babel src -s -D -d . --presets es2015,stage-0",
+    "start": "node index.js",
+    "test": "eslint src",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards."
+  },
+  "repository": {},
+  "author": "Tim Tawan <tim@thaiclub.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.14.0",
+    "express-flash": "0.0.2",
+    "express-session": "^1.14.2",
+    "express-status-monitor": "^0.1.6",
+    "express-validator": "^3.0.0",
+    "firebase": "^3.6.2",
+    "fs": "0.0.1-security",
+    "lusca": "^1.4.1",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "path": "^0.12.7",
+    "resource-router-middleware": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.2",
+    "browserify": "^13.1.1",
+    "browserify-ngannotate": "^2.0.0",
+    "eslint": "^3.1.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.1",
+    "nodemon": "^1.9.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "homepage": "",
+  "engines": {
+    "node": "4.5.0"
+  },
+  "babelrc": true,
+  "keywords": [
+    "nodejs",
+    "reactjs",
+    "mobx",
+    "api",
+    "boilerplate",
+    "express",
+    "restful",
+    "api"
+  ]
+}
