@@ -68,7 +68,7 @@ export default class App extends Component {
           <h2>MyWorld Node/Express/React/Mobx</h2>
         </div>
         <p className="App-intro">
-          <small> This stack has been modified by <i><a href="mailto:mrtawans@gmail.com">Tawan Chotikanchinda</a></i></small>
+          <small> This stack has been modified by <i><a href="mailto:mrtawans@gmail.com">@timtawan</a></i></small>
         </p>
         <button type="button" disabled={ this._props.onClickDisabled } onClick={ this.handleLoadData.bind(this) }>
         { this._props.onClickLabel }
