@@ -86,6 +86,7 @@
     "boilerplate",
     "express",
     "restful",
-    "api"
+    "api",
+    "es6"
   ]
 }

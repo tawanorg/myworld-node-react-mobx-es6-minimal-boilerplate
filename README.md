@@ -1,4 +1,4 @@
-# Node with React, Mobx minimal boilerplate in My World
+# Node with React, Mobx, ES6 minimal boilerplate in My World (Real World)
 
 I would like to have one single server with nodejs/express 
 but reactjs as frontend library. I've modified the other stack and re build in my way
